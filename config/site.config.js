@@ -11,7 +11,7 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: 'https://q1.qlogo.cn/g?b=qq&s=100&nk=3362991369',
+  icon: '/icon/1.png',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
@@ -20,7 +20,7 @@ module.exports = {
   title: "幽灵小站",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: '/pubilc/',
+  baseDirectory: '/',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
